@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		7CF655521D90006100008DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF655511D90006100008DE4 /* main.m */; };
 		7CF655551D90006100008DE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF655541D90006100008DE4 /* AppDelegate.m */; };
-		7CF655581D90006100008DE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF655571D90006100008DE4 /* ViewController.m */; };
 		7CF6555B1D90006100008DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF655591D90006100008DE4 /* Main.storyboard */; };
 		7CF6555D1D90006100008DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF6555C1D90006100008DE4 /* Assets.xcassets */; };
 		7CF655601D90006100008DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF6555E1D90006100008DE4 /* LaunchScreen.storyboard */; };
 		7CF6556B1D90006100008DE4 /* testProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6556A1D90006100008DE4 /* testProjectTests.m */; };
 		7CF655761D90006100008DE4 /* testProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF655751D90006100008DE4 /* testProjectUITests.m */; };
+		7CF655831D9003B300008DE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF655571D90006100008DE4 /* ViewController.m */; };
+		7CF655861D900BA600008DE4 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF655851D900BA600008DE4 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7CF655711D90006100008DE4 /* testProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF655751D90006100008DE4 /* testProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProjectUITests.m; sourceTree = "<group>"; };
 		7CF655771D90006100008DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF655841D900BA600008DE4 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		7CF655851D900BA600008DE4 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7CF6555E1D90006100008DE4 /* LaunchScreen.storyboard */,
 				7CF655611D90006100008DE4 /* Info.plist */,
 				7CF655501D90006100008DE4 /* Supporting Files */,
+				7CF655841D900BA600008DE4 /* Calculator.h */,
+				7CF655851D900BA600008DE4 /* Calculator.m */,
 			);
 			path = testProject;
 			sourceTree = "<group>";
@@ -273,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CF655581D90006100008DE4 /* ViewController.m in Sources */,
+				7CF655831D9003B300008DE4 /* ViewController.m in Sources */,
+				7CF655861D900BA600008DE4 /* Calculator.m in Sources */,
 				7CF655551D90006100008DE4 /* AppDelegate.m in Sources */,
 				7CF655521D90006100008DE4 /* main.m in Sources */,
 			);
@@ -424,7 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = testProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ildar.itis.testProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = testProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ildar.itis.testProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
