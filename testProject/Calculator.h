@@ -12,6 +12,8 @@
 
 - (int)sumA:(int)a andB:(int)b;
 - (int)divA:(int)a toB:(int)b;
-
+- (int)multA:(int)a andB:(int)b;
+- (double)percentA:(int)a andB:(int)b;
+- (int)maxCountA:(int)a andB:(int)b;
 
 @end
