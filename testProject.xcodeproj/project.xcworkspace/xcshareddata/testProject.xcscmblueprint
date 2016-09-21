@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D2B0E774D4756730E98F312D31FB7BA77E426C55",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D2B0E774D4756730E98F312D31FB7BA77E426C55" : 9223372036854775807,
+    "34053DBB485C39AD11D56AF9BD424B9869443B88" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D2E8CE41-D1CC-4D9D-B515-0F9CA2A8305D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D2B0E774D4756730E98F312D31FB7BA77E426C55" : "HW1Objective-C\/",
+    "34053DBB485C39AD11D56AF9BD424B9869443B88" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "testProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "testProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/spiridonova_11-503\/spiridonova_11-503.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34053DBB485C39AD11D56AF9BD424B9869443B88"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nataliSM\/HW1Objective-C.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D2B0E774D4756730E98F312D31FB7BA77E426C55"
+    }
+  ]
+}
