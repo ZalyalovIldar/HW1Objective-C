@@ -10,8 +10,10 @@
 
 @interface Calculator : NSObject
 
-- (int)sumA:(int)a andB:(int)b;
-- (int)divA:(int)a toB:(int)b;
-
+- (NSInteger)sumA:(NSInteger)a andB:(NSInteger)b;
+- (NSInteger)divA:(NSInteger)a toB:(NSInteger)b;
+- (NSInteger) multiplication :(NSInteger)a toB:(NSInteger)b;
+- (float) percent:(float)percent atNumber:(float)number;
+- (NSInteger) compare:(NSInteger)a toB:(NSInteger)b;
 
 @end
