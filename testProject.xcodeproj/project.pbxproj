@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001AC7791D93DBE800AA8433 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001AC7781D93DBE800AA8433 /* Background.jpg */; };
 		7CF655521D90006100008DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF655511D90006100008DE4 /* main.m */; };
 		7CF655551D90006100008DE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF655541D90006100008DE4 /* AppDelegate.m */; };
 		7CF6555B1D90006100008DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF655591D90006100008DE4 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001AC7781D93DBE800AA8433 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Background.jpg; path = ../../Downloads/Background.jpg; sourceTree = "<group>"; };
 		7CF6554D1D90006100008DE4 /* testProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF655511D90006100008DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CF655531D90006100008DE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		7CF655441D90006100008DE4 = {
 			isa = PBXGroup;
 			children = (
+				001AC7781D93DBE800AA8433 /* Background.jpg */,
 				7CF6554F1D90006100008DE4 /* testProject */,
 				7CF655691D90006100008DE4 /* testProjectTests */,
 				7CF655741D90006100008DE4 /* testProjectUITests */,
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CF655601D90006100008DE4 /* LaunchScreen.storyboard in Resources */,
+				001AC7791D93DBE800AA8433 /* Background.jpg in Resources */,
 				7CF6555D1D90006100008DE4 /* Assets.xcassets in Resources */,
 				7CF6555B1D90006100008DE4 /* Main.storyboard in Resources */,
 			);
@@ -517,6 +521,7 @@
 				7CF6557C1D90006100008DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CF6557D1D90006100008DE4 /* Build configuration list for PBXNativeTarget "testProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				7CF6557F1D90006100008DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CF655801D90006100008DE4 /* Build configuration list for PBXNativeTarget "testProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +539,7 @@
 				7CF655821D90006100008DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
