@@ -12,6 +12,9 @@
 
 - (int)sumA:(int)a andB:(int)b;
 - (int)divA:(int)a toB:(int)b;
+- (int)multA:(int)a andB:(int)b;
+- (double)persA:(int)a andB:(int)b;
+- (int)maxA:(int)a andb:(int)b;
 
 
 @end
