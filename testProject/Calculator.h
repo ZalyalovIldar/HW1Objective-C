@@ -12,6 +12,8 @@
 
 - (int)sumA:(int)a andB:(int)b;
 - (int)divA:(int)a toB:(int)b;
-
+- (int)multA:(int)a andB:(int)b;
+- (int)perA:(int)a fromB:(int)b;
+- (NSInteger)compareA:(NSInteger)a toB:(NSInteger)b;
 
 @end
