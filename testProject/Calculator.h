@@ -12,6 +12,10 @@
 
 - (int)sumA:(int)a andB:(int)b;
 - (int)divA:(int)a toB:(int)b;
+- (int)multA:(int)a andB:(int)b;
+- (double)percA:(int)a andB:(int)b;
+- (int)maxNumbA:(int)a andB:(int)b;
+- (int)changeSignA:(int)a;
 
 
 @end
