@@ -13,7 +13,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    Calculator *calculator = [[Calculator alloc] init];
+    [calculator sumA:5 andB:10];
+    [calculator divA:15 toB:5];
+    [calculator percA:5 andB:15];
+    [calculator maxNumbA:5 andB:10];
+    [calculator changeSignA:5];
     
 }
 
