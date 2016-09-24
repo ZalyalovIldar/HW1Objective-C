@@ -12,6 +12,9 @@
 
 - (int)sumA:(int)a andB:(int)b;
 - (int)divA:(int)a toB:(int)b;
+- (int)multiplicationA:(int)a toB:(int)b;
+- (int)comparisonA:(int)a toB:(int)b;
+- (int)percentA:(int)a;
 
 
 @end
