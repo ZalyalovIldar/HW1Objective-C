@@ -13,8 +13,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
+    Calculator *calc = [[Calculator alloc] init];
+    NSLog(@"____________________");
+    NSLog(@"%d",[calc sumA:5 andB:5]);
+    NSLog(@"%d",[calc divA:5 toB:5]);
+    NSLog(@"%d",[calc multiplicationA:5 toB:5]);
+    NSLog(@"%d",[calc comparisonA:6 toB:4]);
+    NSLog(@"%d",[calc percentA:500]);
+    NSLog(@"____________________");
 }
 
 @end
